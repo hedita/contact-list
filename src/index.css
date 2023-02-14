@@ -1,0 +1,49 @@
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid #455d7a;
+  border-radius: 10px;
+}
+
+.contact-details {
+  padding: 45px;
+  color: #00204a;
+}
+
+.info-button {
+  display: inline-block;
+  background-color: #9fd3c7;
+  border-radius: 10px;
+  border: 2px solid #455d7a;
+  color: #142d4c;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0ffcd;
+}
+
+.sports-name {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  color: #00204a;
+}
+
+.email {
+  padding: 45px;
+  color: #00204a;
+}
